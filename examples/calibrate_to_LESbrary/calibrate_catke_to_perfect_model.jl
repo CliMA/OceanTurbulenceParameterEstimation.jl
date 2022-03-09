@@ -1,14 +1,14 @@
 pushfirst!(LOAD_PATH, joinpath(@__DIR__, "../.."))
 
-using OceanTurbulenceParameterEstimation, LinearAlgebra, CairoMakie
+using OceanLearning, LinearAlgebra, CairoMakie
 using Oceananigans.TurbulenceClosures.CATKEVerticalDiffusivities: CATKEVerticalDiffusivity
-using OceanTurbulenceParameterEstimation.EnsembleKalmanInversions: NaNResampler, FullEnsembleDistribution
+using OceanLearning.EnsembleKalmanInversions: NaNResampler, FullEnsembleDistribution
 
 include("utils/lesbrary_paths.jl")
 include("utils/parameters.jl")
 include("utils/visualize_profile_predictions.jl")
 
-examples_path = joinpath(pathof(OceanTurbulenceParameterEstimation), "../../examples")
+examples_path = joinpath(pathof(OceanLearning), "../../examples")
 include(joinpath(examples_path, "intro_to_inverse_problems.jl"))
 
 # Pick a parameter set defined in `./parameters.jl`

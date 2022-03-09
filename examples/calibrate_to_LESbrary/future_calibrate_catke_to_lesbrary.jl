@@ -11,12 +11,12 @@ image_dir = joinpath(@__DIR__, "quick_calibrate")
 mkpath(image_dir)
 
 using Oceananigans
-using OceanTurbulenceParameterEstimation
+using OceanLearning
 using OceanBoundaryLayerParameterizations
 
-two_day_suite_dir = "/Users/gregorywagner/Projects/OceanTurbulenceParameterEstimation/data/2DaySuite"
-four_day_suite_dir = "/Users/gregorywagner/Projects/OceanTurbulenceParameterEstimation/data/4DaySuite"
-six_day_suite_dir = "/Users/gregorywagner/Projects/OceanTurbulenceParameterEstimation/data/6DaySuite"
+two_day_suite_dir = "/Users/gregorywagner/Projects/OceanLearning/data/2DaySuite"
+four_day_suite_dir = "/Users/gregorywagner/Projects/OceanLearning/data/4DaySuite"
+six_day_suite_dir = "/Users/gregorywagner/Projects/OceanLearning/data/6DaySuite"
 
 two_day_suite = TwoDaySuite(two_day_suite_dir)
 four_day_suite = FourDaySuite(four_day_suite_dir)

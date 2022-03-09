@@ -1,4 +1,4 @@
-using OceanTurbulenceParameterEstimation.InverseProblems: vectorize, forward_run!, transpose_model_output
+using OceanLearning.InverseProblems: vectorize, forward_run!, transpose_model_output
 using CairoMakie
 
 include("visualize_profile_predictions_utils.jl")

@@ -1,6 +1,6 @@
 # Calibrate convective adjustment closure parameters to LESbrary 2-day "free_convection" simulation
 
-using OceanTurbulenceParameterEstimation, LinearAlgebra, CairoMakie
+using OceanLearning, LinearAlgebra, CairoMakie
 using Oceananigans.Units
 
 include("utils/lesbrary_paths.jl")

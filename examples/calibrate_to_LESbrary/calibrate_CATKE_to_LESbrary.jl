@@ -4,16 +4,16 @@ using Oceananigans
 using Plots, LinearAlgebra, Distributions, JLD2
 using Oceananigans.Units
 using Oceananigans.TurbulenceClosures: CATKEVerticalDiffusivity
-using OceanTurbulenceParameterEstimation
+using OceanLearning
 
 include("utils/lesbrary_paths.jl")
 include("utils/one_dimensional_ensemble_model.jl")
 include("utils/parameters.jl")
 include("utils/visualize_profile_predictions.jl")
 
-# two_day_suite_dir = "/Users/gregorywagner/Projects/OceanTurbulenceParameterEstimation/data/2DaySuite"
-# four_day_suite_dir = "/Users/gregorywagner/Projects/OceanTurbulenceParameterEstimation/data/4DaySuite"
-# six_day_suite_dir = "/Users/gregorywagner/Projects/OceanTurbulenceParameterEstimation/data/6DaySuite"
+# two_day_suite_dir = "/Users/gregorywagner/Projects/OceanLearning/data/2DaySuite"
+# four_day_suite_dir = "/Users/gregorywagner/Projects/OceanLearning/data/4DaySuite"
+# six_day_suite_dir = "/Users/gregorywagner/Projects/OceanLearning/data/6DaySuite"
 
 # two_day_suite = TwoDaySuite(two_day_suite_dir)
 # four_day_suite = FourDaySuite(four_day_suite_dir)
