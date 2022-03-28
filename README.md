@@ -1,5 +1,5 @@
 # ~OceanTurbulenceParameterEstimation.jl~
 
-This name of this package changed. It's now called **OceanLearning.jl** and it lives at http://github.com/CliMA/OceanLearning.jl
+This name of this package changed. It's now called **ParameterEstimocean.jl** and it lives at https://github.com/CliMA/ParameterEstimocean.jl
 
 Happy Learning 🌊 !
